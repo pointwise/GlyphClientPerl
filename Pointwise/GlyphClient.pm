@@ -4,7 +4,7 @@
 # Copyright 2016 (c) Pointwise, Inc.
 # All rights reserved.
 #
-# This sample Python script is not supported by Pointwise, Inc.
+# This sample Perl script is not supported by Pointwise, Inc.
 # It is provided freely for demonstration purposes only.
 # SEE THE WARRANTY DISCLAIMER AT THE BOTTOM OF THIS FILE.
 #
