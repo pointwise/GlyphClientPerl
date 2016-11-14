@@ -1,4 +1,4 @@
-#! /usr/bin/env python
+#! /usr/bin/perl
 
 #
 # Copyright 2016 (c) Pointwise, Inc.
