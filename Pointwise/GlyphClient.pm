@@ -10,6 +10,7 @@
 #
 
 use IO::Socket::INET;
+use Socket qw(IPPROTO_TCP TCP_NODELAY);
 
 package Pointwise::GlyphClient;
 
@@ -45,6 +46,8 @@ sub connect {
     if (!defined $self->{_socket}) {
         return 0;
     }
+
+    $self->{_socket}->setsockopt(IPPROTO_TCP, TCP_NODELAY, 1);
 
     $self->_send('AUTH', $auth);
 
